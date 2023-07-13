@@ -1,0 +1,43 @@
+.events-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	h1 {
+		font-size: 120px;
+		line-height: 120px;
+		letter-spacing: -0.03em;
+		margin: 100px 0 160px 0;
+	}
+	span {
+		color: var(--span-text-color);
+	}
+	margin: 0 309px;
+}
+.events-page__dates {
+	display: flex;
+	button {
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 32px;
+		letter-spacing: -0.03em;
+
+		border-radius: 0;
+		margin: 0 1px;
+		&:first-child {
+			border-top-left-radius: 20px;
+			border-bottom-left-radius: 20px;
+		}
+		&:last-child {
+			border-top-right-radius: 20px;
+			border-bottom-right-radius: 20px;
+		}
+	}
+}
+.events__cards {
+	margin-top: 60px;
+}
+.events-page__date {
+	margin: 0 1px;
+	background: var(--primary-gradient);
+}

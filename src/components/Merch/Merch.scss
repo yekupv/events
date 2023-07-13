@@ -1,0 +1,37 @@
+.merch {
+	display: flex;
+	flex-direction: column;
+	margin: 150px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	button {
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 40px;
+		letter-spacing: -0.03em;
+	}
+}
+
+.merch__header {
+	position: relative;
+	img {
+		z-index: -1;
+		top: 10%;
+		left: -50%;
+		position: absolute;
+	}
+}
+.merch__block {
+	border-radius: 20px;
+	background: white;
+	width: 315px;
+	height: 300px;
+	box-shadow: 0px 5px 10px 0px #54545459;
+	transition: all 0.3s ease;
+	margin: 54px 20px;
+}
+.merch__row {
+	display: flex;
+	flex-direction: row;
+}

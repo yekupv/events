@@ -1,0 +1,16 @@
+.info-line {
+	display: flex;
+	background: var(--primary-gradient);
+	padding: 48px 111px;
+	justify-content: center;
+
+	align-items: center;
+	h2 {
+		margin: 0;
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 40px;
+		letter-spacing: 0em;
+		color: white;
+	}
+}

@@ -1,0 +1,38 @@
+@import url("./assets/fonts/stylesheet.css");
+
+:root {
+	--span-text-color: #229517;
+	--primary-gradient: linear-gradient(180deg, #61b355 0%, #24cc14 100%);
+	--bg-color: #e7e7e7;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body {
+	box-sizing: border-box;
+	font-family: "TT-Interphases-Pro-Mono-Trial";
+	margin: 0;
+	padding: 0;
+	background: var(--bg-color);
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+button {
+	font-family: "TT-Interphases-Pro-Mono-Trial";
+}
+
+h2 {
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: -0.03em;
+}
+
+a {
+	text-decoration: none;
+}

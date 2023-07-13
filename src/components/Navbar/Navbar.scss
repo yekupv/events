@@ -1,0 +1,44 @@
+.navbar {
+	margin: 43px 309px 60px 309px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+img {
+	object-fit: contain;
+}
+.navbar__socials {
+	display: flex;
+	justify-content: space-between;
+}
+.navbar__socials-item {
+	margin: 0 30px;
+	img {
+		border-radius: 13px;
+		cursor: pointer;
+		box-shadow: 0px 0px 10px 0px #54545459;
+		transition: all 0.3s ease;
+		&:hover {
+			box-shadow: 0px 0px 10px 0px #b8b8b859;
+		}
+	}
+}
+.navbar__socials-item:first-child {
+	margin: 0 30px 0 0;
+}
+
+.navbar__navlinks {
+	display: flex;
+	align-items: center;
+	p {
+		font-size: 24px;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		&:hover {
+			scale: 1.03;
+		}
+	}
+	.navbar__navlink {
+		margin-right: 49px;
+	}
+}

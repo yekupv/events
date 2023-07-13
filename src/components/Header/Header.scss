@@ -1,0 +1,55 @@
+.hero {
+	margin: 0 309px 350px 309px;
+
+	h1 {
+		font-size: 120px;
+		line-height: 120px;
+		letter-spacing: -0.03em;
+		margin: 0;
+	}
+	h4 {
+		font-size: 60px;
+		line-height: 60px;
+		letter-spacing: -0.03em;
+		margin: 0;
+	}
+	button {
+		margin-top: 64px;
+	}
+}
+
+.hero__text {
+	display: flex;
+	align-items: center;
+}
+.hero__text--green {
+	font-family: "TT-Interphases-Pro-Mono-Trial";
+	font-style: normal;
+	color: var(--span-text-color);
+}
+.hero__text-dates {
+	font-style: italic;
+	margin-left: 50px;
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-top: 30px;
+	padding: 12.5px 45px;
+	color: white;
+	border-radius: 20px;
+	background-color: #26b018;
+	box-shadow: 0px 0px 40px 0px #54545459;
+}
+.hero__img1 {
+	z-index: -1;
+	position: absolute;
+	left: 160px;
+	top: 630px;
+}
+.hero__img2 {
+	z-index: -1;
+	position: absolute;
+	right: 40px;
+	top: 420px;
+}
