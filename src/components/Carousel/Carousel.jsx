@@ -18,8 +18,8 @@ const Carousel = () => {
 	};
 	return (
 		<div className='carousel'>
-			<button onClick={() => slider?.current?.slickPrev()}>Prev</button>
-			<button onClick={() => slider?.current?.slickNext()}>Next</button>
+			{/* <button onClick={() => slider?.current?.slickPrev()}>Prev</button>
+			<button onClick={() => slider?.current?.slickNext()}>Next</button> */}
 			<Slider ref={slider} {...settings}>
 				<div className='box'>
 					<h3>slider1</h3>

@@ -1,0 +1,20 @@
+.backButton {
+	outline: none;
+	border: none;
+	background: transparent;
+	display: flex;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: -0.03em;
+	text-align: left;
+	img {
+		margin-top: 4px;
+		margin-right: 30px;
+	}
+	&:hover {
+		scale: 1.005;
+	}
+}

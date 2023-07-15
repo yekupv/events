@@ -3,7 +3,11 @@ import "./Events.scss";
 import Button from "../../components/UI/Button/Button";
 import { eventsInfo } from "../../helpers/events";
 import EventCard from "../../components/EventCard/EventCard";
+import BackButton from "../../components/UI/BackButton/BackButton";
+import images from "../../assets/images/images";
+import { useNavigate } from "react-router-dom";
 const Events = () => {
+	const nav = useNavigate();
 	const [filteredEventsInfo, setFilteredEventsInfo] = useState(eventsInfo);
 	const filterEvents = (e) => {
 		setFilteredEventsInfo(
@@ -14,6 +18,13 @@ const Events = () => {
 	};
 	return (
 		<main className='events-page'>
+			<BackButton
+				onClick={() => {
+					nav("/");
+				}}
+			>
+				На главную
+			</BackButton>
 			<h1>
 				<span>Все мероприятия</span> <br /> с 9 по 11 сентября
 			</h1>
@@ -40,6 +51,11 @@ const Events = () => {
 					/>
 				))}
 			</div>
+			<img
+				className='background_ellipse'
+				src={images.ellipse}
+				alt='backgroundEllipse'
+			/>
 		</main>
 	);
 };

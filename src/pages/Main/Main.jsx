@@ -8,22 +8,21 @@ import Merch from "../../components/Merch/Merch";
 import Map from "../../components/Map/Map";
 import { useJsApiLoader } from "@react-google-maps/api";
 import { mapOptions } from "../../components/Map/MapConfiguration";
-
+import "./Main.scss";
 const Main = () => {
 	const { isLoaded } = useJsApiLoader({
 		id: mapOptions.googleMapApiKey,
 		googleMapsApiKey: mapOptions.googleMapApiKey,
 	});
 	return (
-		<>
-			<Header />
+		<div className='main'>
 			<InfoLine />
 			<VideoBlock />
 			<Carousel />
 			<Events />
 			<Merch />
 			<Map isLoaded={isLoaded} />
-		</>
+		</div>
 	);
 };
 export default Main;

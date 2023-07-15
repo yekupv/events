@@ -1,8 +1,9 @@
 .events-page {
+	position: relative;
+	margin: 0 309px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
 	h1 {
 		font-size: 120px;
 		line-height: 120px;
@@ -12,10 +13,16 @@
 	span {
 		color: var(--span-text-color);
 	}
-	margin: 0 309px;
+}
+.background_ellipse {
+	position: absolute;
+	z-index: -1;
+	top: 500px;
+	left: -309px;
 }
 .events-page__dates {
 	display: flex;
+	justify-content: center;
 	button {
 		font-size: 32px;
 		font-weight: 700;
