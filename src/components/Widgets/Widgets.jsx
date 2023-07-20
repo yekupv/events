@@ -1,4 +1,3 @@
-import React from "react";
 import "./Widgets.scss";
 import { useJsApiLoader } from "@react-google-maps/api";
 import { mapOptions } from "../Map/MapConfiguration";

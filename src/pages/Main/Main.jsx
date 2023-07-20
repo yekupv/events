@@ -1,9 +1,8 @@
-import React from "react";
 import Header from "../../components/Header/Header";
 
 import "./Main.scss";
 import Widgets from "../../components/Widgets/Widgets";
-import InfoLine from "../../components/infoLine/infoLine";
+import InfoLine from "../../components/InfoLine/InfoLine";
 const Main = () => {
 	return (
 		<main className="main">

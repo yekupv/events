@@ -1,8 +1,10 @@
-import React from "react";
 import "./Buttons.scss";
-const Button = ({variant, children, ...props }) => {
+const Button = ({ variant, children, ...props }) => {
 	return (
-		<button {...props} className={variant == 'secondary' ? 'secondary' : 'primary'  }>
+		<button
+			{...props}
+			className={variant == "secondary" ? "secondary" : "primary"}
+		>
 			{children}
 		</button>
 	);

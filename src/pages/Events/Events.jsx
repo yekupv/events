@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import "./Events.scss";
 import Button from "../../components/UI/Button/Button";
 import { eventsInfo } from "../../helpers/events";
 import EventCard from "../../components/EventCard/EventCard";
 import BackButton from "../../components/UI/BackButton/BackButton";
-import images from "../../assets/images/images";
 import { useNavigate } from "react-router-dom";
 const Events = () => {
 	const nav = useNavigate();
