@@ -4,6 +4,7 @@ import instagram from "./instagram.png";
 import logo from "./logo.png";
 import menu from "./menu.png";
 import arrows from "./arrows.png";
+import mobileArrows from "./mobileArrows.png";
 import mainImage from "./mainImage.png";
 import nextArrow from "./nextArrow.png";
 import prevArrow from "./prevArrow.png";
@@ -21,6 +22,7 @@ export default {
 	logo,
 	menu,
 	arrows,
+	mobileArrows,
 	mainImage,
 	prevArrow,
 	nextArrow,

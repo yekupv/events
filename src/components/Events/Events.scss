@@ -1,5 +1,6 @@
 .events {
-	margin: 160px 0;
+	margin: 60px 0;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -7,22 +8,29 @@
 	span {
 		color: var(--span-text-color);
 	}
-	h2 {
-		margin: 60px 0;
 
-		font-size: 50px;
+	button {
+		font-size: 24px;
 		font-weight: 700;
-		line-height: 50px;
+		line-height: 24px;
 		letter-spacing: -0.03em;
 	}
-	button {
-		font-size: 40px;
-		font-weight: 700;
-		line-height: 40px;
-		letter-spacing: -0.03em;
+	@media screen and (min-width: 1440px) {
+		margin: 160px 0;
+
+		button {
+			margin: 0 62px;
+			font-size: 40px;
+			font-weight: 700;
+			line-height: 40px;
+			letter-spacing: -0.03em;
+		}
 	}
 }
 .events__cards {
 	display: flex;
 	flex-direction: column;
+}
+
+@media screen and (min-width: 750px) {
 }

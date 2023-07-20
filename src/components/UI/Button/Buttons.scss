@@ -1,10 +1,24 @@
-.myBtn {
+.primary {
 	border: none;
 	padding: 20px;
 	border-radius: 20px;
 	background: var(--primary-gradient);
 	cursor: pointer;
 	box-shadow: 0px 15px 40px 0px #2a9d1f7a;
+
+	color: white;
+	transition: all 0.3s ease;
+	&:hover {
+		box-shadow: 0px 15px 40px 0px #3eff2d7a;
+	}
+}
+.secondary {
+	background: linear-gradient(180deg, #61b355 0%, #229517 100%);
+	border: none;
+	padding: 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	box-shadow: 0px 15px 30px 0px #22951780;
 
 	color: white;
 	transition: all 0.3s ease;

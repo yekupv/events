@@ -11,10 +11,9 @@ const Merch = () => {
 			</div>
 			<div className='merch__row'>
 				<div className='merch__block'></div>
-				<div className='merch__block'></div>
-				<div className='merch__block'></div>
+				
 			</div>
-			<Button>Заказать</Button>
+			<Button variant={'secondary'}>Заказать</Button>
 		</section>
 	);
 };

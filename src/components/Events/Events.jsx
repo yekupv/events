@@ -26,7 +26,7 @@ const Events = () => {
 					/>
 				))}
 			</div>
-			<Button onClick={() => navigate("/events")}>Все мероприятия</Button>
+			<Button onClick={() => navigate("/events") }variant='secondary'>Все мероприятия</Button>
 		</div>
 	);
 };

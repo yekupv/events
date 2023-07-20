@@ -7,3 +7,25 @@
 		color: var(--span-text-color);
 	}
 }
+
+@media screen and (min-width: 0px) {
+	.map-container {
+		border-radius: 10px;
+		height: 500px;
+		width: 90%;
+	}
+}
+@media screen and (min-width: 750px) {
+	.map-container {
+		border-radius: 10px;
+		height: 500px;
+		width: 80%;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.map-container {
+		border-radius: 10px;
+		height: 800px;
+		width: 1070px;
+	}
+}

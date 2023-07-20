@@ -5,10 +5,10 @@ const EventCard = ({ date, time, location, price, name, image, variant }) => {
 	return (
 		<div
 			className={`event-card ${variant}`}
-			style={{
-				background: ` url(${image})`,
-				backgroundPosition: "center",
-			}}
+			// style={{
+			// 	background: ` url(${image})`,
+			// 	backgroundPosition: "center",
+			// }}
 		>
 			<div className='event-card__info'>
 				<p>{date}</p>
@@ -18,8 +18,9 @@ const EventCard = ({ date, time, location, price, name, image, variant }) => {
 			</div>
 			<div className='event-card__info'>
 				<h3>{name}</h3>
-				<Button>Билеты</Button>
+				<Button variant='secondary'>Билеты</Button>
 			</div>
+			<img className='event-card__bg-image'src={image} alt="cardImage" />
 		</div>
 	);
 };

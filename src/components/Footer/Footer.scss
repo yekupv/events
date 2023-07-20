@@ -5,3 +5,13 @@ footer {
 	justify-content: space-around;
 	align-items: flex-end;
 }
+@media screen and (max-width: 750px) {
+	.copyright {
+		text-align: center;
+	}
+	footer {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

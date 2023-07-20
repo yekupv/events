@@ -1,8 +1,9 @@
 .backButton {
+	display: flex;
+	align-items: center;
 	outline: none;
 	border: none;
 	background: transparent;
-	display: flex;
 	cursor: pointer;
 	transition: all 0.3s ease;
 	font-size: 25px;
@@ -16,5 +17,24 @@
 	}
 	&:hover {
 		scale: 1.005;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.backButton {
+		font-size: 20px;
+		img {
+			margin-right: 20px;
+			width: 60px;
+		}
+	}
+}
+@media screen and (max-width: 750px) {
+	.backButton {
+		font-size: 15px;
+		img {
+			margin-right: 10px;
+			width: 50px;
+		}
 	}
 }
