@@ -2,6 +2,7 @@ import images from "../assets/images/images";
 
 export const eventsInfo = [
 	{
+		id: 1,
 		date: "30 августа",
 		time: "20:00",
 		location: "Дворец Республики",
@@ -10,6 +11,7 @@ export const eventsInfo = [
 		image: images.eventImage1,
 	},
 	{
+		id: 2,
 		date: "31 августа",
 		time: "20:00",
 		location: "Дворец Республики",
@@ -19,6 +21,7 @@ export const eventsInfo = [
 	},
 
 	{
+		id: 3,
 		date: "1 сентября",
 		time: "20:00",
 		location: "Дворец Республики",
@@ -27,6 +30,7 @@ export const eventsInfo = [
 		image: images.eventImage2,
 	},
 	{
+		id: 4,
 		date: "2 сентября",
 		time: "20:00",
 		location: "Дворец Республики",
@@ -35,6 +39,7 @@ export const eventsInfo = [
 		image: images.eventImage2,
 	},
 	{
+		id: 5,
 		date: "3 сентября",
 		time: "20:00",
 		location: "Дворец Республики",

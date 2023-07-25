@@ -34,11 +34,7 @@ const Events = () => {
 
 				<div className="events-page__dates">
 					{eventsInfo.map((event, index) => (
-						<Button
-							key={event.name + index}
-							onClick={filterEvents}
-							variant="secondary"
-						>
+						<Button key={event.id} onClick={filterEvents} variant="secondary">
 							{event.date}
 						</Button>
 					))}
@@ -47,7 +43,7 @@ const Events = () => {
 				<div className="events__cards margin">
 					{filteredEventsInfo.map((event) => (
 						<EventCard
-							key={event.name}
+							key={event.id}
 							date={event.date}
 							time={event.time}
 							location={event.location}
