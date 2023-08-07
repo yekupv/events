@@ -1,6 +1,6 @@
-import whatsapp from "./whatsapp.png";
+import whatsapp from "./whatsapp.svg";
 import telegram from "./telegram.svg";
-import instagram from "./instagram.png";
+import instagram from "./instagram.svg";
 import logo from "./logo.png";
 import menu from "./menu.png";
 import arrows from "./arrows.png";
@@ -14,6 +14,9 @@ import eventImage2 from "./eventImage2.png";
 import merch from "./merch.png";
 import marker from "./marker.png";
 import ellipse from "./ellipse.png";
+import exit from "./exit.png";
+import underline from "./underline.png";
+import star from "./star.svg";
 
 export default {
 	whatsapp,
@@ -32,4 +35,7 @@ export default {
 	merch,
 	marker,
 	ellipse,
+	exit,
+	underline,
+	star,
 };

@@ -11,6 +11,7 @@ const Carousel = () => {
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		swipeToSlide: true,
+		autoplay: true,
 		autoplaySpeed: 4000,
 		nextArrow: <GalleryNextArrow />,
 		prevArrow: <GalleryPrevArrow />,

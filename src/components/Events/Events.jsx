@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Events = () => {
 	const navigate = useNavigate();
 	return (
-		<div className="events">
+		<div id="events" className="events">
 			<h2>
 				Что <span>будет</span>?
 			</h2>
@@ -24,7 +24,11 @@ const Events = () => {
 					/>
 				))}
 			</div>
-			<Button onClick={() => navigate("/events")} variant="secondary">
+			<Button
+				onClick={() => navigate("/events")}
+				variant="secondary"
+				active={true}
+			>
 				Все мероприятия
 			</Button>
 		</div>

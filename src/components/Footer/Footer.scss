@@ -4,6 +4,9 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-end;
+	img {
+		width: 200px;
+	}
 }
 @media screen and (max-width: 750px) {
 	.copyright {

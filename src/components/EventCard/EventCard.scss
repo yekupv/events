@@ -23,6 +23,45 @@
 	transition: all 0.3s ease;
 }
 .medium {
+	.event-card__info {
+		margin: 10px 5px;
+		padding-left: 5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img {
+			margin-right: 5px;
+		}
+		p {
+			margin: 5px 0;
+			margin-right: 10px;
+		}
+		button {
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 20px;
+			letter-spacing: 0em;
+			padding: 8px 20px;
+		}
+		border-radius: 8px;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		background: rgba(255, 255, 255, 0.12);
+		backdrop-filter: blur(10px);
+	}
+	.event-card__title {
+		font-size: 13px;
+		display: flex;
+		justify-content: space-between;
+		margin: 10px;
+		align-items: center;
+		button {
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 20px;
+			letter-spacing: 0em;
+			padding: 8px 20px;
+		}
+	}
 	width: 370px;
 	height: 133.5px;
 	border-radius: 10px;
@@ -43,6 +82,44 @@
 }
 
 .large {
+	.event-card__info {
+		margin: 7px;
+		display: flex;
+		padding-left: 5px;
+		img {
+			margin-right: 5px;
+		}
+		p {
+			line-height: 6px;
+			margin-right: 5px;
+			font-size: 8px;
+		}
+		button {
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 20px;
+			letter-spacing: 0em;
+			padding: 8px 20px;
+		}
+		border-radius: 8px;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		background: rgba(255, 255, 255, 0.12);
+		backdrop-filter: blur(10px);
+	}
+	.event-card__title {
+		font-size: 13px;
+		display: flex;
+		justify-content: space-between;
+		margin: 10px;
+		align-items: center;
+		button {
+			font-size: 13px;
+			font-weight: 700;
+			line-height: 20px;
+			letter-spacing: 0em;
+			padding: 8px 15px;
+		}
+	}
 	width: 90%;
 	height: 160px;
 	p {
@@ -55,28 +132,8 @@
 		line-height: 20px;
 		letter-spacing: 0em;
 	}
-	.event-card__info {
-		margin: 15px;
-	}
 }
 
-.event-card__info {
-	p {
-		margin: 0;
-	}
-	justify-content: space-between;
-	display: flex;
-	align-items: center;
-	margin: 14px;
-
-	button {
-		font-size: 16px;
-		font-weight: 700;
-		line-height: 20px;
-		letter-spacing: 0em;
-		padding: 8px 20px;
-	}
-}
 .event-card__details {
 	display: flex;
 	justify-content: space-between;
@@ -114,13 +171,6 @@
 		border-radius: 10px;
 		img {
 			top: -50px;
-			position: absolute;
-			z-index: -1;
-			width: 100%;
-		}
-		p {
-			margin: 0;
-			font-size: 20px;
 		}
 		h3 {
 			margin: 0;
@@ -128,6 +178,16 @@
 			font-weight: 700;
 			line-height: 20px;
 			letter-spacing: 0em;
+		}
+		.event-card__title {
+			margin: 32px;
+			button {
+				font-size: 24px;
+				font-weight: 700;
+				line-height: 34px;
+				letter-spacing: 0em;
+				padding: 8px 20px;
+			}
 		}
 	}
 	.small {
@@ -155,7 +215,17 @@
 	}
 
 	.event-card__info {
-		justify-content: space-between;
+		padding: 8px;
+		width: 550px;
+		img {
+			margin-right: 12px;
+		}
+		p {
+			font-size: 16px;
+			margin: 0;
+			margin-right: 12px;
+		}
+		margin: 14px;
 		display: flex;
 		align-items: center;
 		margin: 20px;
@@ -166,6 +236,16 @@
 			line-height: 20px;
 			letter-spacing: 0em;
 			padding: 15px 30px;
+		}
+	}
+	.event-card__title {
+		margin: 32px;
+		button {
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 34px;
+			letter-spacing: 0em;
+			padding: 8px 20px;
 		}
 	}
 
@@ -181,11 +261,34 @@
 	}
 
 	.medium {
+		.event-card__info {
+			width: 650px;
+			p {
+				font-size: 20px;
+			}
+			margin: 36px 32px;
+			button {
+				margin: 0;
+				font-size: 36px;
+				font-weight: 700;
+				line-height: 36px;
+				letter-spacing: -0.03em;
+				text-align: left;
+			}
+		}
+		.event-card__title {
+			button {
+				font-size: 36px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+			}
+		}
 		font-size: 24px;
+
 		width: 1200px;
 		height: 290px;
 		p {
-			font-size: 24px;
 		}
 		img {
 			top: -90px;
@@ -201,6 +304,23 @@
 	}
 
 	.large {
+		.event-card__info {
+			width: 800px;
+			padding: 20px;
+			p {
+				font-size: 26px;
+			}
+			margin: 36px 32px;
+		}
+		.event-card__title {
+			margin: 50px 32px;
+			button {
+				font-size: 36px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+			}
+		}
 		width: 1290px;
 		height: 700px;
 		p {
@@ -212,18 +332,6 @@
 			font-weight: 700;
 			line-height: 20px;
 			letter-spacing: 0em;
-		}
-		.event-card__info {
-			margin: 36px 39px;
-
-			button {
-				margin: 0;
-				font-size: 36px;
-				font-weight: 700;
-				line-height: 36px;
-				letter-spacing: -0.03em;
-				text-align: left;
-			}
 		}
 	}
 

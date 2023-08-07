@@ -34,6 +34,9 @@
 .events-page__dates {
 	display: flex;
 	justify-content: center;
+	position: sticky;
+	top: 20px;
+	z-index: 1;
 	button {
 		font-size: 32px;
 		font-weight: 700;
@@ -52,6 +55,7 @@
 		}
 	}
 }
+
 .margin {
 	margin-top: 60px;
 	align-items: center;

@@ -13,10 +13,9 @@ const Map = ({ isLoaded }) => {
 
 	return (
 		isLoaded && (
-			<div className="map">
+			<div id="map" className="map">
 				<h2>
 					Где <span>это?</span>
-					{console.log(isLoaded, " in map div")}
 				</h2>
 				<GoogleMap
 					mapContainerClassName="map-container"

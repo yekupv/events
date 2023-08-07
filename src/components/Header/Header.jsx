@@ -6,7 +6,7 @@ const Header = () => {
 	const navigate = useNavigate();
 	return (
 		<main>
-			<div className="hero">
+			<div id="hero" className="hero">
 				<div className="hero__info">
 					<div className="hero__text">
 						<h1>Крупнейший&nbsp; </h1>
@@ -20,6 +20,7 @@ const Header = () => {
 						<br /> в Центральной Азии
 					</h1>
 					<Button
+						active={true}
 						onClick={() => {
 							navigate("/events");
 						}}

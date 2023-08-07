@@ -8,12 +8,16 @@ import { useNavigate } from "react-router-dom";
 const Events = () => {
 	const nav = useNavigate();
 	const [filteredEventsInfo, setFilteredEventsInfo] = useState(eventsInfo);
-	const filterEvents = (e) => {
+	const [activeIndex, setActiveIndex] = useState(0);
+	const filterEvents = (e, id) => {
+		setActiveIndex(id);
+
 		setFilteredEventsInfo(
-			eventsInfo.filter((event) => event.date == e.target.innerText)
+			eventsInfo.filter((event) => {
+				return event.date == e.target.innerText;
+			})
 		);
-		console.log(e.target.innerText);
-		console.log(filteredEventsInfo);
+		console.log(activeIndex);
 	};
 	return (
 		<main className="events-page">
@@ -34,7 +38,12 @@ const Events = () => {
 
 				<div className="events-page__dates">
 					{eventsInfo.map((event, index) => (
-						<Button key={event.id} onClick={filterEvents} variant="secondary">
+						<Button
+							key={event.id}
+							onClick={(e) => filterEvents(e, event.id)}
+							variant="secondary"
+							active={activeIndex === 0 || activeIndex === event.id} // Pass the active state based on the condition
+						>
 							{event.date}
 						</Button>
 					))}

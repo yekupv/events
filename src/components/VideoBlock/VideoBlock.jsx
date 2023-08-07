@@ -2,7 +2,7 @@ import "./VideoBlock.scss";
 import VideoPlayer from "../VideoPlayer/VideoPlayer";
 const VideoBlock = () => {
 	return (
-		<section className="video-block">
+		<section id="about" className="video-block">
 			<h2>
 				Alem <span>Comedy</span> Fest
 			</h2>

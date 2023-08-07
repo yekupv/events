@@ -5,8 +5,8 @@
 	background: var(--primary-gradient);
 	cursor: pointer;
 	box-shadow: 0px 15px 40px 0px #2a9d1f7a;
+	color: #9fd19a;
 
-	color: white;
 	transition: all 0.3s ease;
 	&:hover {
 		box-shadow: 0px 15px 40px 0px #3eff2d7a;
@@ -20,9 +20,14 @@
 	cursor: pointer;
 	box-shadow: 0px 15px 30px 0px #22951780;
 
-	color: white;
+	color: #9fd19a;
+
 	transition: all 0.3s ease;
 	&:hover {
 		box-shadow: 0px 15px 40px 0px #3eff2d7a;
 	}
+}
+
+.active_date {
+	color: white;
 }

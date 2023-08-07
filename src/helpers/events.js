@@ -35,7 +35,7 @@ export const eventsInfo = [
 		time: "20:00",
 		location: "Дворец Республики",
 		price: "от 5000 ₸",
-		name: "Концерт Astana Stand-Up",
+		name: "онцерт Astana Stand-Up",
 		image: images.eventImage2,
 	},
 	{
@@ -44,7 +44,7 @@ export const eventsInfo = [
 		time: "20:00",
 		location: "Дворец Республики",
 		price: "от 5000 ₸",
-		name: "Концерт Astana Stand-Up",
+		name: "нцерт Astana Stand-Up",
 		image: images.eventImage2,
 	},
 ];
