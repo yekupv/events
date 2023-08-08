@@ -8,6 +8,7 @@ const Merch = () => {
 				<h2>МЕРЧ!</h2>
 				<img src={images.merch} alt="merch" />
 			</div>
+			<img className="merch_bg_image" src={images.eventBg} alt="merchbg" />
 			<div className="merch__row">
 				<div className="merch__block"></div>
 			</div>

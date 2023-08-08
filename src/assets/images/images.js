@@ -17,6 +17,8 @@ import ellipse from "./ellipse.png";
 import exit from "./exit.png";
 import underline from "./underline.png";
 import star from "./star.svg";
+import eventBg from "./eventBg.svg";
+import merchBg from "./merchBg.svg";
 
 export default {
 	whatsapp,
@@ -38,4 +40,6 @@ export default {
 	exit,
 	underline,
 	star,
+	eventBg,
+	merchBg,
 };

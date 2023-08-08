@@ -1,6 +1,6 @@
 .events {
 	margin: 60px 0;
-
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -31,6 +31,18 @@
 	display: flex;
 	flex-direction: column;
 }
+.bg_image {
+	z-index: -1;
+	top: -600px;
+	right: -500px;
+	position: absolute;
+}
 
 @media screen and (min-width: 750px) {
+	.bg_image {
+		z-index: -1;
+		top: -500px;
+		right: -300px;
+		position: absolute;
+	}
 }

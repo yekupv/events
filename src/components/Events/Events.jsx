@@ -1,6 +1,7 @@
 import "./Events.scss";
 import EventCard from "../EventCard/EventCard";
 import Button from "../UI/Button/Button";
+import images from "../../assets/images/images";
 import { eventsInfo } from "../../helpers/events";
 import { useNavigate } from "react-router-dom";
 const Events = () => {
@@ -10,6 +11,8 @@ const Events = () => {
 			<h2>
 				Что <span>будет</span>?
 			</h2>
+			<img className="bg_image" src={images.merchBg} alt="" />
+
 			<div className="events__cards">
 				{eventsInfo.map((event) => (
 					<EventCard
