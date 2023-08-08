@@ -1,24 +1,25 @@
 import whatsapp from "./whatsapp.svg";
 import telegram from "./telegram.svg";
 import instagram from "./instagram.svg";
-import logo from "./logo.png";
-import menu from "./menu.png";
-import arrows from "./arrows.png";
-import mobileArrows from "./mobileArrows.png";
-import mainImage from "./mainImage.png";
-import nextArrow from "./nextArrow.png";
+import logo from "./logo.webp";
+import menu from "./menu.webp";
+import arrows from "./arrows.webp";
+import mobileArrows from "./mobileArrows.webp";
+import mainImage from "./mainImage.webp";
+import nextArrow from "./nextArrow.webp";
 import prevArrow from "./prevArrow.png";
-import goBackArrow from "./goBackArrow.png";
-import eventImage1 from "./eventImage1.png";
-import eventImage2 from "./eventImage2.png";
-import merch from "./merch.png";
-import marker from "./marker.png";
-import ellipse from "./ellipse.png";
-import exit from "./exit.png";
+import goBackArrow from "./goBackArrow.webp";
+import eventImage1 from "./eventImage1.webp";
+import eventImage2 from "./eventImage2.webp";
+import merch from "./merch.webp";
+import marker from "./marker.webp";
+import ellipse from "./ellipse.webp";
+import exit from "./exit.webp";
 import underline from "./underline.png";
 import star from "./star.svg";
 import eventBg from "./eventBg.svg";
 import merchBg from "./merchBg.svg";
+import dates_underline from "./dates_underline.webp";
 
 export default {
 	whatsapp,
@@ -42,4 +43,5 @@ export default {
 	star,
 	eventBg,
 	merchBg,
+	dates_underline,
 };
