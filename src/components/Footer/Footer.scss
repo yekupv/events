@@ -8,9 +8,35 @@ footer {
 		width: 200px;
 	}
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1440px) {
+	footer {
+		margin: 0 100px;
+		p {
+			font-size: 13px;
+			margin: 10px;
+		}
+	}
 	.copyright {
 		text-align: center;
+		img {
+			width: 150px;
+		}
+	}
+}
+
+@media screen and (max-width: 750px) {
+	footer {
+		margin: 0;
+		p {
+			font-size: 12px;
+			margin: 10px;
+		}
+	}
+	.copyright {
+		text-align: center;
+		img {
+			width: 100px;
+		}
 	}
 	footer {
 		flex-direction: column;

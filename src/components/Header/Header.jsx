@@ -33,7 +33,7 @@ const Header = () => {
 						<img src={images.arrows} alt="arrows" />
 					</figure>
 					<figure className="hero__img2">
-						<img src={images.mainImage} alt="mainImage" />
+						<img src={images.mainImage} width="600px" alt="mainImage" />
 					</figure>
 					<figure className="hero__img3">
 						<img src={images.mobileArrows} alt="mobileArrows" />

@@ -1,5 +1,6 @@
 .info-line {
 	margin-top: 380px;
+	margin-bottom: 60px;
 	display: flex;
 	background: var(--primary-gradient);
 	justify-content: center;
@@ -34,7 +35,7 @@
 }
 @media screen and (min-width: 1284px) {
 	.info-line {
-		margin-bottom: 0;
+		margin-bottom: 160px;
 		margin-top: 290px;
 		display: flex;
 		background: var(--primary-gradient);
