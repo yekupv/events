@@ -1,14 +1,13 @@
 import "./Map.scss";
-import { GoogleMap, Marker } from "@react-google-maps/api";
+import { GoogleMap, InfoWindow, Marker } from "@react-google-maps/api";
 import images from "../../assets/images/images";
+import { eventsInfo } from "../../helpers/events";
+import { useState } from "react";
 const Map = ({ isLoaded }) => {
+	const [selectedMarker, setSetselectedMarker] = useState("");
 	const center = {
 		lat: 43.238949,
 		lng: 76.889709,
-	};
-	const position = {
-		lat: 43.251153,
-		lng: 76.9097,
 	};
 
 	return (
@@ -22,8 +21,27 @@ const Map = ({ isLoaded }) => {
 					center={center}
 					zoom={12}
 				>
-					<Marker icon={images.marker} position={position} />
-					<Marker icon={images.marker} position={center} />
+					{eventsInfo.map((event) => (
+						<Marker
+							key={event.id}
+							icon={images.marker}
+							position={event.position}
+							onClick={() => setSetselectedMarker(event)}
+						/>
+					))}
+
+					{selectedMarker && (
+						<InfoWindow
+							position={selectedMarker.position}
+							onCloseClick={() => setSetselectedMarker("")}
+						>
+							<div className="map__infowindow">
+								<h1>{selectedMarker.name}</h1>
+								<h1>{selectedMarker.date}</h1>
+								<h1>{selectedMarker.time}</h1>
+							</div>
+						</InfoWindow>
+					)}
 				</GoogleMap>
 			</div>
 		)
