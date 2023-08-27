@@ -9,9 +9,16 @@ const Navbar = () => {
 		{ id: 3, link: "#merch", text: "Мерч" },
 		{ id: 4, link: "#map", text: "Карта" },
 	];
+
 	const [activeIndex, setActiveIndex] = useState(0);
 	const [toggle, setToggle] = useState(false);
+	useEffect(() => {
+		if (toggle == true) document.body.style.overflow = "hidden";
 
+		return () => {
+			document.body.style.overflow = "unset";
+		};
+	}, [toggle]);
 	return (
 		<Headroom>
 			<nav className="navbar">
