@@ -2,7 +2,10 @@ import Headroom from "react-headroom";
 import images from "../../assets/images/images";
 import "./Navbar.scss";
 import { useState, useEffect } from "react";
+import { useRef } from "react";
 const Navbar = () => {
+	const ref = useRef(null);
+	const burgerRef = useRef(null);
 	const links = [
 		{ id: 1, link: "#about", text: "О проекте" },
 		{ id: 2, link: "#events", text: "Мероприятия" },
@@ -12,11 +15,23 @@ const Navbar = () => {
 
 	const [activeIndex, setActiveIndex] = useState(0);
 	const [toggle, setToggle] = useState(false);
+
 	useEffect(() => {
-		if (toggle == true) document.body.style.overflow = "hidden";
+		const handleClickOutside = (event) => {
+			if (ref.current && !ref.current.contains(event.target)) {
+				setToggle(false);
+				setActiveIndex(0);
+			}
+		};
+
+		if (toggle) {
+			document.addEventListener("mousedown", handleClickOutside);
+		} else {
+			document.removeEventListener("mousedown", handleClickOutside);
+		}
 
 		return () => {
-			document.body.style.overflow = "unset";
+			document.removeEventListener("mousedown", handleClickOutside);
 		};
 	}, [toggle]);
 	return (
@@ -55,14 +70,15 @@ const Navbar = () => {
 				<div className="navbar__burger_menu">
 					<div
 						className="navbar__burger"
+						ref={burgerRef}
 						onClick={() => {
-							setToggle(true);
+							setToggle((prevState) => !prevState); // Toggle the menu
 						}}
 					>
 						<img src={images.menu} alt="menu" />
 					</div>
 					{toggle && (
-						<div className="navbar__menu">
+						<div ref={ref} className="navbar__menu">
 							<div
 								className="navbar__menu_exit"
 								onClick={() => {
@@ -77,7 +93,7 @@ const Navbar = () => {
 									<img className="navbar__logo" src={images.logo} alt="logo" />
 								</a>
 								{links.map((link) => (
-									<li className="navbar__menu_navlink">
+									<li key={link.id} className="navbar__menu_navlink">
 										<a
 											href={`/${link.link}`}
 											onClick={() => {
@@ -92,6 +108,21 @@ const Navbar = () => {
 									</li>
 								))}
 							</ul>
+
+							<div className="navbar__menu__footer">
+								<a href="">Публичная офферта</a>
+								<ul className="navbar__menu__footer__socials">
+									<li className="navbar__menu__footer__socials-item">
+										<img src={images.instagram} alt="inst" />
+									</li>
+									<li className="navbar__menu__footer__socials-item">
+										<img src={images.telegram} alt="telegram" />
+									</li>
+									<li className="navbar__menu__footer__socials-item">
+										<img src={images.whatsapp} alt="whatsapp" />
+									</li>
+								</ul>
+							</div>
 						</div>
 					)}
 				</div>

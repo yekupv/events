@@ -64,26 +64,30 @@
 
 .navbar__menu {
 	top: 0;
-	left: 0;
-	width: 100%;
-	height: 110vh;
+	right: 0;
+	width: 50%;
+	height: 120vh;
 	position: fixed;
 	background: radial-gradient(
 		451.91% 82.93% at 22.69% 5.35%,
-		rgba(252, 252, 252, 0.9) 0%,
-		rgba(84, 179, 95, 0.9) 47.4%,
-		rgba(84, 179, 95, 1) 77.79%,
-		rgba(97, 228, 112, 1) 100%
+		rgba(252, 252, 252) 0%,
+		rgba(84, 179, 95) 47.4%,
+		rgba(84, 179, 95) 77.79%,
+		rgba(97, 228, 112) 100%
 	);
 }
 .navbar__menu_exit {
 	cursor: pointer;
-	margin: 60px 30px 0 0;
+	margin: 10px 10px 0 0;
 	display: flex;
 	justify-content: end;
+	img {
+		width: 25px;
+	}
 }
 .navbar__menu_navlinks {
-	margin-left: 56px;
+	margin-top: 50px;
+	margin-left: 30px;
 	display: flex;
 	flex-direction: column;
 }
@@ -91,20 +95,44 @@
 	display: flex;
 	flex-direction: column;
 	margin-top: 30px;
-	font-size: 32px;
+	font-size: 20px;
 	font-weight: 700;
 	line-height: 32px;
 	letter-spacing: -0.03em;
 	text-align: left;
 	img {
-		margin-top: 20px;
-		width: 200px;
+		margin-top: 0;
+		width: 150px;
 	}
 }
 .active_link {
 	transition: all 0.3s ease;
 
 	scale: 1.1;
+}
+.navbar__menu__footer {
+	font-size: 13px;
+	margin: 60px 10px 10px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.navbar__menu__footer__socials {
+	margin-top: 15px;
+	display: flex;
+}
+.navbar__menu__footer__socials-item {
+	margin: 0 8px;
+	img {
+		width: 30px;
+		border-radius: 10px;
+		box-shadow: 0px 0px 10px 0px #54545459;
+
+		&:hover {
+			box-shadow: 0px 0px 10px 0px #8f8f8f59;
+		}
+	}
 }
 @media screen and (min-width: 750px) {
 	.navbar {
@@ -125,6 +153,34 @@
 	}
 
 	.navbar__socials-item {
+	}
+
+	.navbar__menu_navlink {
+		display: flex;
+		flex-direction: column;
+		margin-top: 30px;
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 32px;
+		letter-spacing: -0.03em;
+		text-align: left;
+		img {
+			margin-top: 20px;
+			width: 200px;
+		}
+	}
+
+	.navbar__menu_exit {
+		cursor: pointer;
+		margin: 10px 10px 0 0;
+		display: flex;
+		justify-content: end;
+		img {
+			width: 30px;
+		}
+	}
+	.navbar__menu__footer {
+		font-size: 16px;
 	}
 }
 @media screen and (min-width: 1284px) {

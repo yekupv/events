@@ -5,10 +5,11 @@ const VideoPlayer = () => {
 			<iframe
 				width="600"
 				height="600"
-				src="https://www.youtube.com/embed/xNRJwmlRBNU"
+				src="https://www.youtube.com/embed/KCYKd02_Sys?si=uC1IWTwADXFPdJw4"
 				title="YouTube video player"
+				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowFullScreen
+				allowfullscreen
 			></iframe>
 		</div>
 	);
