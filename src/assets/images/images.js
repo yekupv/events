@@ -20,6 +20,13 @@ import star from "./star.svg";
 import eventBg from "./eventBg.svg";
 import merchBg from "./merchBg.svg";
 import dates_underline from "./dates_underline.webp";
+import image_carousel_1 from "./image_carousel_1.webp";
+import image_carousel_2 from "./image_carousel_2.webp";
+import image_carousel_3 from "./image_carousel_3.webp";
+import image_carousel_4 from "./image_carousel_4.webp";
+import image_carousel_5 from "./image_carousel_5.webp";
+import image_carousel_6 from "./image_carousel_6.webp";
+import image_carousel_7 from "./image_carousel_7.webp";
 
 export default {
 	whatsapp,
@@ -44,4 +51,11 @@ export default {
 	eventBg,
 	merchBg,
 	dates_underline,
+	image_carousel_1,
+	image_carousel_2,
+	image_carousel_3,
+	image_carousel_4,
+	image_carousel_5,
+	image_carousel_6,
+	image_carousel_7,
 };

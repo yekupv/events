@@ -54,3 +54,13 @@
 		}
 	}
 }
+
+@media screen and (max-width: 390px) {
+	.info-line {
+		h2 {
+			margin: 0;
+			font-size: 12px;
+			font-weight: 700;
+		}
+	}
+}

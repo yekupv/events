@@ -11,7 +11,7 @@ const Header = () => {
 					<div className="hero__text">
 						<h1>Крупнейший&nbsp; </h1>
 						<span className="hero__text-dates">
-							с 30 вагуста <br />
+							с 30 августа <br />
 							по 3 сентрября
 							<br />
 						</span>

@@ -11,7 +11,7 @@ const Carousel = () => {
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		swipeToSlide: true,
-		autoplay: true,
+		// autoplay: true,
 		autoplaySpeed: 4000,
 		nextArrow: <GalleryNextArrow />,
 		prevArrow: <GalleryPrevArrow />,
@@ -48,19 +48,54 @@ const Carousel = () => {
 			<button onClick={() => slider?.current?.slickNext()}>Next</button> */}
 			<Slider {...settings}>
 				<div className="box">
-					<h3>slider1</h3>
+					<img
+						src={images.image_carousel_1}
+						loading="lazy"
+						alt="slider image 2"
+					/>
 				</div>
 				<div className="box">
-					<h3>slider2</h3>
+					<img
+						src={images.image_carousel_2}
+						loading="lazy"
+						alt="slider image 3"
+					/>
 				</div>
 				<div className="box">
-					<h3>slider3</h3>
+					<img
+						src={images.image_carousel_3}
+						loading="lazy"
+						alt="slider image 4"
+					/>
+				</div>
+
+				<div className="box">
+					<img
+						src={images.image_carousel_5}
+						loading="lazy"
+						alt="slider image 6"
+					/>
 				</div>
 				<div className="box">
-					<h3>slider4</h3>
+					<img
+						src={images.image_carousel_6}
+						loading="lazy"
+						alt="slider image 7"
+					/>
 				</div>
 				<div className="box">
-					<h3>slider5</h3>
+					<img
+						src={images.image_carousel_7}
+						loading="lazy"
+						alt="slider image 8"
+					/>
+				</div>
+				<div className="box">
+					<img
+						src={images.image_carousel_4}
+						loading="lazy"
+						alt="slider image 5"
+					/>
 				</div>
 			</Slider>
 		</div>
