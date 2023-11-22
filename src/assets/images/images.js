@@ -44,7 +44,7 @@ import formatKazakh from "./formatKazakh.jpg";
 import formatTurk from "./formatTurk.jpg";
 import formatKimura from "./formatKimura.jpg";
 import orWhat from "./orWhat.jpg";
-import roastBattle from "./RoastBattle.png";
+import roastBattle from "./roastBattle.png";
 import moneyMike from "./moneyMike.jpg";
 import moneyMike2 from "./moneyMike2.jpg";
 import moneyMike3 from "./moneyMike3.jpg";
