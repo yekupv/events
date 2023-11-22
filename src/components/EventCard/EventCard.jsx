@@ -52,7 +52,12 @@ const EventCard = ({
 			</div>
 
 			{image && (
-				<img className="event-card__bg-image" src={image} alt="cardImage" />
+				<img
+					className="event-card__bg-image"
+					src={image}
+					loading={`${fromParent ? "lazy" : "eager"} `}
+					alt="cardImage"
+				/>
 			)}
 		</div>
 	);
