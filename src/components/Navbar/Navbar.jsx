@@ -9,8 +9,8 @@ const Navbar = () => {
 	const links = [
 		{ id: 1, link: "#about", text: "О проекте" },
 		{ id: 2, link: "#events", text: "Мероприятия" },
-		{ id: 3, link: "#merch", text: "Мерч" },
-		{ id: 4, link: "#map", text: "Карта" },
+		// { id: 3, link: "#merch", text: "Мерч" },
+		{ id: 3, link: "#map", text: "Карта" },
 	];
 
 	const [activeIndex, setActiveIndex] = useState(0);
@@ -39,13 +39,19 @@ const Navbar = () => {
 			<nav className="navbar">
 				<ul className="navbar__socials">
 					<li className="navbar__socials-item">
-						<img src={images.instagram} alt="inst" />
+						<a href="https://instagram.com/alemcomedyfest" target="_blank">
+							<img src={images.instagram} alt="inst" />
+						</a>
 					</li>
 					<li className="navbar__socials-item">
-						<img src={images.telegram} alt="telegram" />
+						<a href="https://t.me/AmaEugene" target="_blank">
+							<img src={images.telegram} alt="telegram" />
+						</a>
 					</li>
 					<li className="navbar__socials-item">
-						<img src={images.whatsapp} alt="whatsapp" />
+						<a href="https://wa.me/77028514301" target="_blank">
+							<img src={images.whatsapp} alt="whatsapp" />
+						</a>
 					</li>
 				</ul>
 				<div className="navbar__navlinks">
@@ -113,13 +119,22 @@ const Navbar = () => {
 								<a href="">Публичная офферта</a>
 								<ul className="navbar__menu__footer__socials">
 									<li className="navbar__menu__footer__socials-item">
-										<img src={images.instagram} alt="inst" />
+										<a
+											href="https://instagram.com/alemcomedyfest"
+											target="_blank"
+										>
+											<img src={images.instagram} alt="inst" />
+										</a>
 									</li>
 									<li className="navbar__menu__footer__socials-item">
-										<img src={images.telegram} alt="telegram" />
+										<a href="https://t.me/AmaEugene" target="_blank">
+											<img src={images.telegram} alt="telegram" />
+										</a>
 									</li>
 									<li className="navbar__menu__footer__socials-item">
-										<img src={images.whatsapp} alt="whatsapp" />
+										<a href="https://wa.me/77028514301" target="_blank">
+											<img src={images.whatsapp} alt="whatsapp" />
+										</a>
 									</li>
 								</ul>
 							</div>

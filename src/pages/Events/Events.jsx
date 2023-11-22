@@ -17,7 +17,6 @@ const Events = () => {
 				return event.date == e.target.innerText;
 			})
 		);
-		console.log(activeIndex);
 	};
 	return (
 		<main className="events-page">
@@ -52,10 +51,12 @@ const Events = () => {
 					{filteredEventsInfo.map((event) => (
 						<EventCard
 							key={event.id}
+							id={event.id}
 							date={event.date}
 							time={event.time}
 							location={event.location}
 							price={event.price}
+							link={event.link}
 							name={event.name}
 							image={event.img}
 							variant={"large"}

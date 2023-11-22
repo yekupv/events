@@ -102,6 +102,10 @@
 	}
 }
 @media screen and (min-width: 1440px) {
+	.box {
+		max-width: auto;
+		height: 200px;
+	}
 	.custom-prevArrow {
 		left: -60%;
 		top: 130px;
@@ -112,7 +116,7 @@
 	}
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1921px) {
 	.box {
 		max-width: 450px;
 		height: 250px;

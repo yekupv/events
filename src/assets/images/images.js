@@ -34,7 +34,29 @@ import eventImg1 from "./eventsImg1.jpg";
 import eventImg2 from "./eventsImg2.jpg";
 import eventImg3 from "./eventsImg3.jpg";
 import openmic from "./openmic.jpg";
+import openmic2 from "./openmic2.jpg";
+import openmic3 from "./openmic3.jpg";
 import kazakhmic from "./kazakhmic.jpg";
+import kazakhmic2 from "./kazakhmic2.jpg";
+import kazakhSession from "./kazakhSession.jpg";
+import kazakhSession2 from "./kazakhSession2.jpg";
+import formatKazakh from "./formatKazakh.jpg";
+import formatTurk from "./formatTurk.jpg";
+import formatKimura from "./formatKimura.jpg";
+import orWhat from "./orWhat.jpg";
+import RoastBattle from "./RoastBattle.png";
+import moneyMike from "./moneyMike.jpg";
+import moneyMike2 from "./moneyMike2.jpg";
+import moneyMike3 from "./moneyMike3.jpg";
+import barbarianMike from "./barbarianMike.jpg";
+import northKazakhstan from "./northKazakhstan.jpg";
+import roastBattle2 from "./roastBattle2.png";
+import obsticales from "./obsticales.jpg";
+import englishMike from "./englishMike.jpg";
+import englishMike2 from "./englishMike2.jpg";
+import kimura from "./kimura.jpg";
+import dayMike from "./dayMike.jpg";
+import roastBattle3 from "./roastBattle3.png";
 export default {
 	whatsapp,
 	telegram,
@@ -72,5 +94,27 @@ export default {
 	eventImg2,
 	eventImg3,
 	openmic,
+	openmic2,
+	openmic3,
 	kazakhmic,
+	kazakhmic2,
+	kazakhSession,
+	kazakhSession2,
+	formatKazakh,
+	formatTurk,
+	formatKimura,
+	orWhat,
+	RoastBattle,
+	moneyMike,
+	moneyMike2,
+	moneyMike3,
+	barbarianMike,
+	northKazakhstan,
+	roastBattle2,
+	obsticales,
+	englishMike,
+	englishMike2,
+	kimura,
+	dayMike,
+	roastBattle3,
 };

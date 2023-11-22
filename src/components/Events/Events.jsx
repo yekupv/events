@@ -2,7 +2,7 @@ import "./Events.scss";
 import EventCard from "../EventCard/EventCard";
 import Button from "../UI/Button/Button";
 import images from "../../assets/images/images";
-import { eventsInfo } from "../../helpers/events";
+import { eventsInfo, eventsInfoMain } from "../../helpers/events";
 import { useNavigate } from "react-router-dom";
 const Events = () => {
 	const navigate = useNavigate();
@@ -14,17 +14,13 @@ const Events = () => {
 			<img className="bg_image" src={images.merchBg} alt="" />
 
 			<div className="events__cards">
-				{eventsInfo.slice(0, 5).map((event) => (
+				{eventsInfoMain.map((event) => (
 					<EventCard
-						key={event.name}
-						date={event.date}
-						time={event.time}
-						location={event.location}
-						price={event.price}
-						name={event.name}
+						key={event.id}
 						image={event.img}
-						link={event.link}
+						name={event.name}
 						variant="medium"
+						parent="main"
 					/>
 				))}
 			</div>
@@ -32,6 +28,7 @@ const Events = () => {
 				onClick={() => navigate("/events")}
 				variant="secondary"
 				active={true}
+				orWhat
 			>
 				Все мероприятия
 			</Button>

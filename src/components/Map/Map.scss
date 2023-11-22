@@ -7,6 +7,24 @@
 		color: var(--span-text-color);
 	}
 }
+.map__infowindow {
+	height: 200px;
+	overflow-x: hidden;
+}
+
+.map__infowindow-list_element {
+	cursor: pointer;
+	padding: 7px 0;
+
+	&:hover {
+		color: black;
+		transform: scale(1.1) translate(20px, 0);
+		transition: all 0.3s ease;
+	}
+	h4 {
+		margin: 0;
+	}
+}
 
 @media screen and (min-width: 0px) {
 	.map-container {

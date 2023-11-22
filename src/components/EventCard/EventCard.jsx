@@ -10,39 +10,50 @@ const EventCard = ({
 	image,
 	variant,
 	link,
+	...props
 }) => {
+	const fromParent = props.parent !== "main";
+	const delight = props.parent !== "main" ? "delighting" : "name_positioning";
 	return (
 		<div
-			className={`event-card ${variant}`}
+			id={props.id}
+			className={`event-card ${variant} ${delight}`}
 			// style={{
 			// 	background: ` url(${image})`,
 			// 	backgroundPosition: "center",
 			// }}
 		>
-			<div className={`event-card__info `}>
-				<p>{date}</p>
-				<img src={images.star} alt="star" />
-				<p>{time}</p>
-				<img src={images.star} alt="star" />
-				<p>{location}</p>
-				<img src={images.star} alt="star" />
-				<p>{price}</p>
-			</div>
+			{fromParent && (
+				<div className={`event-card__info `}>
+					<p>{date}</p>
+					<img src={images.star} alt="star" />
+					<p>{time}</p>
+					<img src={images.star} alt="star" />
+					<p>{location}</p>
+					<img src={images.star} alt="star" />
+					<p>{price}</p>
+				</div>
+			)}
+
 			<div className="event-card__title">
 				<h3>{name}</h3>
-				{link !== "" ? (
-					<a href={link} target="_blank">
-						<Button variant="secondary" active={true}>
-							Билеты
+				{fromParent &&
+					(link !== "" ? (
+						<a href={link} target="_blank">
+							<Button variant="secondary" active={true}>
+								Билеты
+							</Button>
+						</a>
+					) : (
+						<Button variant="secondary" active={true} disabled={true}>
+							Cкоро...
 						</Button>
-					</a>
-				) : (
-					<Button variant="secondary" active={true} disabled={true}>
-						Cкоро...
-					</Button>
-				)}
+					))}
 			</div>
-			<img className="event-card__bg-image" src={image} alt="cardImage" />
+
+			{image && (
+				<img className="event-card__bg-image" src={image} alt="cardImage" />
+			)}
 		</div>
 	);
 };
