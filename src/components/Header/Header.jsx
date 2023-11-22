@@ -7,18 +7,27 @@ const Header = () => {
 	return (
 		<main>
 			<div id="hero" className="hero">
+				<figure className="hero__img4">
+					<img
+						src={images.backgroundImageMobile}
+						width="auto"
+						alt="backgroundImageMobile"
+					/>
+				</figure>
+				<figure className="hero__img3">
+					<img
+						src={images.backgroundImageTablet}
+						width="auto"
+						alt="backgroundImageTablet"
+					/>
+				</figure>
 				<div className="hero__info">
 					<div className="hero__text">
-						<h1>Крупнейший&nbsp; </h1>
-						<span className="hero__text-dates">
-							с 30 августа <br />
-							по 3 сентрября
-							<br />
-						</span>
+						<h1>Ежегодный&nbsp; </h1>
+						<span className="hero__text-dates">1-3 декабря</span>
 					</div>
 					<h1>
 						<span className="hero__text--green">фестиваль комедии</span>
-						<br /> в Центральной Азии
 					</h1>
 					<Button
 						active={true}
@@ -31,12 +40,6 @@ const Header = () => {
 
 					<figure className="hero__img1">
 						<img src={images.arrows} alt="arrows" />
-					</figure>
-					<figure className="hero__img2">
-						<img src={images.mainImage} width="600px" alt="mainImage" />
-					</figure>
-					<figure className="hero__img3">
-						<img src={images.mobileArrows} alt="mobileArrows" />
 					</figure>
 				</div>
 			</div>

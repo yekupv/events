@@ -8,11 +8,25 @@ const VideoBlock = () => {
 			</h2>
 			<div className="video-block__content">
 				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore odio
-					qui doloribus non aut consequuntur ipsam, veniam dolores fugit,
-					debitis commodi molestias delectus accusantium dolor, laudantium nulla
-					est. Ducimus, laudantium! Repellendus laborum saepe modi enim, nemo
-					adipisci ex repudiandae quos impedit deserunt voluptatem,
+					<span className="hero__text--green">Alem Сomedy Fest</span> — это
+					ежегодный фестиваль комедии, объединяющий комиков со всех регионов
+					Казахстана. 
+					<br />
+					<br />В этом году мы объединяем десятки локальных комиков с
+					единственной целью —{" "}
+					<span className="hero__text--green">
+						продлить тепло с помощью смеха и юмора.
+					</span>
+					<br /> <br />
+					Вас ожидают только теплые, домашние и уютные мероприятия с различными
+					форматами:{" "}
+					<span className="hero__text--green">
+						денежные микрофоны, съемки популярных шоу, открытые микрофоны и
+						прожарки звезд. 
+					</span>
+					<br />
+					<br />
+					Приобретайте билеты и давайте смеяться вместе!
 				</p>
 				<VideoPlayer />
 			</div>

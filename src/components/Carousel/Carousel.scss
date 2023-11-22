@@ -111,3 +111,18 @@
 		top: -130px;
 	}
 }
+
+@media screen and (min-width: 1800px) {
+	.box {
+		max-width: 450px;
+		height: 250px;
+	}
+	.custom-prevArrow {
+		left: -60%;
+		top: 130px;
+	}
+	.custom-nextArrow {
+		right: -60%;
+		top: -130px;
+	}
+}

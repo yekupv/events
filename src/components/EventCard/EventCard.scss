@@ -27,7 +27,7 @@
 		margin: 10px 5px;
 		padding-left: 5px;
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
 		img {
 			margin-right: 5px;
@@ -83,7 +83,6 @@
 
 .large {
 	.event-card__info {
-		width: 90%;
 		margin: 10px 7px;
 		display: flex;
 		align-self: center;
@@ -95,7 +94,7 @@
 		p {
 			line-height: 6px;
 			margin-right: 5px;
-			font-size: 8px;
+			font-size: 7px;
 		}
 		button {
 			font-size: 16px;
@@ -237,12 +236,12 @@
 			letter-spacing: 0em;
 		}
 		.event-card__info {
-			align-self: flex-start;
+			align-self: center;
+			justify-content: space-around;
 
 			padding-left: 10px;
-			width: 480px;
 			p {
-				font-size: 16px;
+				font-size: 20px;
 			}
 			button {
 				margin: 0;
@@ -279,7 +278,7 @@
 
 	.medium {
 		.event-card__info {
-			width: 630px;
+			width: 730px;
 			padding: 10px;
 			p {
 				font-size: 20px;
@@ -323,7 +322,9 @@
 
 	.large {
 		.event-card__info {
-			width: 70%;
+			align-self: center;
+			justify-content: space-around;
+			width: 85%;
 			padding: 0 30px;
 			p {
 				margin-right: 10px;

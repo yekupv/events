@@ -17,7 +17,7 @@ const Widgets = () => {
 			<VideoBlock />
 			<Carousel />
 			<Events />
-			<Merch />
+			{/* <Merch /> */}
 			<Map isLoaded={isLoaded} />
 		</div>
 	);

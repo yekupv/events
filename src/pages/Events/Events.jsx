@@ -1,16 +1,16 @@
 import { useState } from "react";
 import "./Events.scss";
 import Button from "../../components/UI/Button/Button";
-import { eventsInfo } from "../../helpers/events";
+import { eventsInfo, eventsDatesArray } from "../../helpers/events";
 import EventCard from "../../components/EventCard/EventCard";
 import BackButton from "../../components/UI/BackButton/BackButton";
 import { useNavigate } from "react-router-dom";
 const Events = () => {
 	const nav = useNavigate();
 	const [filteredEventsInfo, setFilteredEventsInfo] = useState(eventsInfo);
-	const [activeIndex, setActiveIndex] = useState(0);
-	const filterEvents = (e, id) => {
-		setActiveIndex(id);
+	const [activeIndex, setActiveIndex] = useState("");
+	const filterEvents = (e, date) => {
+		setActiveIndex(date);
 
 		setFilteredEventsInfo(
 			eventsInfo.filter((event) => {
@@ -32,19 +32,18 @@ const Events = () => {
 					</BackButton>
 				</div>
 				<h1>
-					<span>Все мероприятия</span> <br /> с 30 августа <br />
-					по 3 сентября
+					<span>Все мероприятия</span> <br /> с 1 по 3 декабря
 				</h1>
 
 				<div className="events-page__dates">
-					{eventsInfo.map((event, index) => (
+					{eventsDatesArray.map((date, index) => (
 						<Button
-							key={event.id}
-							onClick={(e) => filterEvents(e, event.id)}
+							key={date}
+							onClick={(e) => filterEvents(e, date)}
 							variant="secondary"
-							active={activeIndex === 0 || activeIndex === event.id} // Pass the active state based on the condition
+							active={activeIndex === 0 || activeIndex === date} // Pass the active state based on the condition
 						>
-							{event.date}
+							{date}
 						</Button>
 					))}
 				</div>
@@ -58,7 +57,7 @@ const Events = () => {
 							location={event.location}
 							price={event.price}
 							name={event.name}
-							image={event.image}
+							image={event.img}
 							variant={"large"}
 						/>
 					))}

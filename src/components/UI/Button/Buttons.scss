@@ -31,3 +31,13 @@
 .active_date {
 	color: white;
 }
+.disabled {
+	button {
+		font-size: 15px;
+	}
+	opacity: 0.5;
+	cursor: not-allowed;
+	&:hover {
+		box-shadow: none;
+	}
+}

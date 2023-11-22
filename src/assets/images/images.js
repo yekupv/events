@@ -5,7 +5,7 @@ import logo from "./logo.webp";
 import menu from "./menu.webp";
 import arrows from "./arrows.webp";
 import mobileArrows from "./mobileArrows.webp";
-import mainImage from "./mainImage.webp";
+import mainImage from "./mainImage.svg";
 import nextArrow from "./nextArrow.webp";
 import prevArrow from "./prevArrow.png";
 import goBackArrow from "./goBackArrow.webp";
@@ -27,7 +27,14 @@ import image_carousel_4 from "./image_carousel_4.webp";
 import image_carousel_5 from "./image_carousel_5.webp";
 import image_carousel_6 from "./image_carousel_6.webp";
 import image_carousel_7 from "./image_carousel_7.webp";
-
+import backgroundMain from "./backgroundMain.svg";
+import backgroundImageTablet from "./backgroundImageTablet.svg";
+import backgroundImageMobile from "./backgroundImageMobile.svg";
+import eventImg1 from "./eventsImg1.jpg";
+import eventImg2 from "./eventsImg2.jpg";
+import eventImg3 from "./eventsImg3.jpg";
+import openmic from "./openmic.jpg";
+import kazakhmic from "./kazakhmic.jpg";
 export default {
 	whatsapp,
 	telegram,
@@ -58,4 +65,12 @@ export default {
 	image_carousel_5,
 	image_carousel_6,
 	image_carousel_7,
+	backgroundMain,
+	backgroundImageTablet,
+	backgroundImageMobile,
+	eventImg1,
+	eventImg2,
+	eventImg3,
+	openmic,
+	kazakhmic,
 };

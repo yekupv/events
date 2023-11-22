@@ -5,3 +5,31 @@
 }
 .body {
 }
+.hero__img2 {
+	display: none;
+}
+.hero__img--main {
+	display: none;
+}
+
+@media screen and (min-width: 1284px) {
+	.hero__img--main {
+		position: absolute;
+		display: block;
+		left: -2%;
+		z-index: -100;
+		overflow-y: hidden;
+	}
+}
+@media screen and (min-width: 1920px) {
+	.hero__img2 {
+		position: absolute;
+		display: block;
+		left: -24%;
+		z-index: -100;
+		overflow-y: hidden;
+	}
+	.hero__img--main {
+		display: none;
+	}
+}

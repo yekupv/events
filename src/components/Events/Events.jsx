@@ -14,7 +14,7 @@ const Events = () => {
 			<img className="bg_image" src={images.merchBg} alt="" />
 
 			<div className="events__cards">
-				{eventsInfo.map((event) => (
+				{eventsInfo.slice(0, 5).map((event) => (
 					<EventCard
 						key={event.name}
 						date={event.date}
@@ -22,7 +22,8 @@ const Events = () => {
 						location={event.location}
 						price={event.price}
 						name={event.name}
-						image={event.image}
+						image={event.img}
+						link={event.link}
 						variant="medium"
 					/>
 				))}
