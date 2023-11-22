@@ -104,7 +104,7 @@ export default {
 	formatTurk,
 	formatKimura,
 	orWhat,
-	RoastBattle,
+	roastBattle,
 	moneyMike,
 	moneyMike2,
 	moneyMike3,
