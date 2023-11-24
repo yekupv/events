@@ -62,17 +62,21 @@ import roastBattle4 from "./roastBattle4.png";
 import roastBattle5 from "./roastBattle5.png";
 import roastBattle6 from "./roastBattle6.png";
 import roast from "./roast.png";
+import roast2 from "./roast2.png";
 import adult from "./adult.jpg";
 import aitpa from "./aitpa.jpg";
 import aitpa2 from "./aitpa2.jpg";
 import double from "./double.jpg";
 import double2 from "./double2.jpg";
+import double3 from "./double3.jpg";
 import west from "./west.jpg";
 import moneyMike4 from "./moneyMike4.jpg";
 import moneyMike5 from "./moneyMike5.jpg";
 import taro from "./taro.jpg";
 import zoomers from "./zoomers.jpg";
 import charity from "./charity.jpg";
+import history from "./history.png";
+import big from "./big.jpg";
 
 export default {
 	whatsapp,
@@ -146,8 +150,12 @@ export default {
 	formatAitpa,
 	double,
 	double2,
+	double3,
 	west,
 	taro,
 	zoomers,
 	charity,
+	history,
+	big,
+	roast2,
 };
