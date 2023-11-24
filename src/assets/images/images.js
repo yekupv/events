@@ -71,6 +71,8 @@ import west from "./west.jpg";
 import moneyMike4 from "./moneyMike4.jpg";
 import moneyMike5 from "./moneyMike5.jpg";
 import taro from "./taro.jpg";
+import zoomers from "./zoomers.jpg";
+import charity from "./charity.jpg";
 
 export default {
 	whatsapp,
@@ -146,4 +148,6 @@ export default {
 	double2,
 	west,
 	taro,
+	zoomers,
+	charity,
 };

@@ -9,7 +9,7 @@ function App() {
 			<Navbar />
 			<AppRouter />
 			<Footer />
-			<ScrollToTop />
+			{/* <ScrollToTop /> */}
 		</div>
 	);
 }

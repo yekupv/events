@@ -91,12 +91,13 @@ export const eventsInfo = [
 	{
 		id: 11,
 		date: "1 декабря",
-		time: "19:00",
+		time: "19:30",
 		location: "Black Box",
 		address: "ул. Кабанбай батыра, 71",
 		price: "5000 ₸",
+		img: images.charity,
 		name: "Благотворительный концерт",
-		link: "",
+		link: "https://sxodim.com/almaty/event/blagotvoritelnyy-stendap-koncert",
 	},
 	{
 		id: 12,
@@ -608,6 +609,7 @@ export const eventsInfo = [
 		location: "Wallride",
 		address: "Проспект Абая, 8а",
 		price: "донат от 1000 ₸",
+		img: images.zoomers,
 		name: "Stand up Зумеры",
 		link: "https://almaty.qtickets.events/92289-stendap-zumery",
 	},
@@ -633,7 +635,7 @@ export const eventsInfo = [
 	},
 	{
 		id: 63,
-		date: "3 декабря",
+		date: "2 декабря",
 		time: "22:00",
 		location: "Black Box",
 		address: "ул. Кабанбай батыра, 71",
