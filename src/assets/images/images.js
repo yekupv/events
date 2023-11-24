@@ -77,6 +77,7 @@ import zoomers from "./zoomers.jpg";
 import charity from "./charity.jpg";
 import history from "./history.png";
 import big from "./big.jpg";
+import karaganda from "./karaganda.jpg";
 
 export default {
 	whatsapp,
@@ -158,4 +159,5 @@ export default {
 	history,
 	big,
 	roast2,
+	karaganda,
 };
