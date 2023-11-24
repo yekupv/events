@@ -43,6 +43,7 @@ import kazakhSession2 from "./kazakhSession2.jpg";
 import formatKazakh from "./formatKazakh.jpg";
 import formatTurk from "./formatTurk.jpg";
 import formatKimura from "./formatKimura.jpg";
+import formatAitpa from "./formatAitpa.jpg";
 import orWhat from "./orWhat.jpg";
 import roastBattle from "./roastBattle.png";
 import moneyMike from "./moneyMike.jpg";
@@ -57,6 +58,18 @@ import englishMike2 from "./englishMike2.jpg";
 import kimura from "./kimura.jpg";
 import dayMike from "./dayMike.jpg";
 import roastBattle3 from "./roastBattle3.png";
+import roastBattle4 from "./roastBattle4.png";
+import roastBattle5 from "./roastBattle5.png";
+import roastBattle6 from "./roastBattle6.png";
+import roast from "./roast.png";
+import adult from "./adult.jpg";
+import aitpa from "./aitpa.jpg";
+import aitpa2 from "./aitpa2.jpg";
+import double from "./double.jpg";
+import double2 from "./double2.jpg";
+import west from "./west.jpg";
+import moneyMike4 from "./moneyMike4.jpg";
+
 export default {
 	whatsapp,
 	telegram,
@@ -108,6 +121,7 @@ export default {
 	moneyMike,
 	moneyMike2,
 	moneyMike3,
+	moneyMike4,
 	barbarianMike,
 	northKazakhstan,
 	roastBattle2,
@@ -117,4 +131,15 @@ export default {
 	kimura,
 	dayMike,
 	roastBattle3,
+	roastBattle4,
+	roastBattle5,
+	roastBattle6,
+	adult,
+	roast,
+	aitpa,
+	aitpa2,
+	formatAitpa,
+	double,
+	double2,
+	west,
 };

@@ -48,35 +48,13 @@ const Carousel = () => {
 			<button onClick={() => slider?.current?.slickNext()}>Next</button> */}
 			<Slider {...settings}>
 				<div className="box">
-					<img src={images.image_carousel_1} alt="slider image 2" />
+					<img src={images.image_carousel_5} alt="slider image 6" />
 				</div>
 				<div className="box">
-					<img src={images.image_carousel_2} alt="slider image 3" />
+					<img src={images.image_carousel_6} alt="slider image 7" />
 				</div>
 				<div className="box">
-					<img src={images.image_carousel_3} alt="slider image 4" />
-				</div>
-
-				<div className="box">
-					<img
-						src={images.image_carousel_5}
-						loading="lazy"
-						alt="slider image 6"
-					/>
-				</div>
-				<div className="box">
-					<img
-						src={images.image_carousel_6}
-						loading="lazy"
-						alt="slider image 7"
-					/>
-				</div>
-				<div className="box">
-					<img
-						src={images.image_carousel_7}
-						loading="lazy"
-						alt="slider image 8"
-					/>
+					<img src={images.image_carousel_7} alt="slider image 8" />
 				</div>
 				<div className="box">
 					<img
