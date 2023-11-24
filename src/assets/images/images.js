@@ -69,6 +69,8 @@ import double from "./double.jpg";
 import double2 from "./double2.jpg";
 import west from "./west.jpg";
 import moneyMike4 from "./moneyMike4.jpg";
+import moneyMike5 from "./moneyMike5.jpg";
+import taro from "./taro.jpg";
 
 export default {
 	whatsapp,
@@ -122,6 +124,7 @@ export default {
 	moneyMike2,
 	moneyMike3,
 	moneyMike4,
+	moneyMike5,
 	barbarianMike,
 	northKazakhstan,
 	roastBattle2,
@@ -142,4 +145,5 @@ export default {
 	double,
 	double2,
 	west,
+	taro,
 };
