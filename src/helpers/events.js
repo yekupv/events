@@ -2,17 +2,6 @@ import images from "../assets/images/images";
 
 export const eventsInfo = [
 	{
-		id: 1,
-		date: "1 декабря",
-		time: "19:00",
-		location: "Coffee House Grain",
-		address: "ул. Курмангазы, 97",
-		price: "донат от 1000 ₸",
-		img: images.moneyMike4,
-		name: "Money Mic",
-		link: "https://almaty.qtickets.events/92626-denezhnyy-mikrofon",
-	},
-	{
 		id: 2,
 		date: "1 декабря",
 		time: "12:00",
@@ -624,7 +613,7 @@ export const eventsInfo = [
 	},
 	{
 		id: 59,
-		date: "2 декабря",
+		date: "3 декабря",
 		time: "22:00",
 		location: "Black Box",
 		address: "ул. Кабанбай батыра, 71",
