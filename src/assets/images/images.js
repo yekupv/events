@@ -49,6 +49,7 @@ import roastBattle from "./roastBattle.png";
 import moneyMike from "./moneyMike.jpg";
 import moneyMike2 from "./moneyMike2.jpg";
 import moneyMike3 from "./moneyMike3.jpg";
+import moneyMike5 from "./moneyMike5.jpg";
 import barbarianMike from "./barbarianMike.jpg";
 import northKazakhstan from "./northKazakhstan.jpg";
 import roastBattle2 from "./roastBattle2.png";
@@ -69,8 +70,13 @@ import double from "./double.jpg";
 import double2 from "./double2.jpg";
 import west from "./west.jpg";
 import moneyMike4 from "./moneyMike4.jpg";
+<<<<<<< HEAD
 import moneyMike5 from "./moneyMike5.jpg";
 import taro from "./taro.jpg";
+=======
+import taro from "./taro.jpg";
+
+>>>>>>> bf656512264b022f50d0c6172690e3b89d6fa555
 
 export default {
 	whatsapp,
