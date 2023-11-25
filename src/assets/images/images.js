@@ -36,6 +36,9 @@ import eventImg3 from "./eventsImg3.jpg";
 import openmic from "./openmic.jpg";
 import openmic2 from "./openmic2.jpg";
 import openmic3 from "./openmic3.jpg";
+import openmic4 from "./openmic4.jpg";
+import openmic5 from "./openmic5.jpg";
+import openmic6 from "./openmic6.jpg";
 import kazakhmic from "./kazakhmic.jpg";
 import kazakhmic2 from "./kazakhmic2.jpg";
 import kazakhSession from "./kazakhSession.jpg";
@@ -55,6 +58,7 @@ import roastBattle2 from "./roastBattle2.png";
 import obsticales from "./obsticales.jpg";
 import englishMike from "./englishMike.jpg";
 import englishMike2 from "./englishMike2.jpg";
+import englishMike3 from "./englishMike3.jpg";
 import kimura from "./kimura.jpg";
 import dayMike from "./dayMike.jpg";
 import roastBattle3 from "./roastBattle3.png";
@@ -72,12 +76,16 @@ import double3 from "./double3.jpg";
 import west from "./west.jpg";
 import moneyMike4 from "./moneyMike4.jpg";
 import moneyMike5 from "./moneyMike5.jpg";
+import moneyMike6 from "./moneyMike6.jpg";
 import taro from "./taro.jpg";
 import zoomers from "./zoomers.jpg";
 import charity from "./charity.jpg";
 import history from "./history.png";
 import big from "./big.jpg";
 import karaganda from "./karaganda.jpg";
+import imporovJam from "./imporovJam.jpg";
+import migrants from "./migrants.jpg";
+import female from "./female.jpg";
 
 export default {
 	whatsapp,
@@ -118,6 +126,9 @@ export default {
 	openmic,
 	openmic2,
 	openmic3,
+	openmic4,
+	openmic5,
+	openmic6,
 	kazakhmic,
 	kazakhmic2,
 	kazakhSession,
@@ -132,12 +143,14 @@ export default {
 	moneyMike3,
 	moneyMike4,
 	moneyMike5,
+	moneyMike6,
 	barbarianMike,
 	northKazakhstan,
 	roastBattle2,
 	obsticales,
 	englishMike,
 	englishMike2,
+	englishMike3,
 	kimura,
 	dayMike,
 	roastBattle3,
@@ -160,4 +173,7 @@ export default {
 	big,
 	roast2,
 	karaganda,
+	imporovJam,
+	migrants,
+	female,
 };

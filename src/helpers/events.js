@@ -84,8 +84,9 @@ export const eventsInfo = [
 		location: "Ray Stand-Up Pub",
 		address: "ул. Нурмакова, 51а",
 		price: "донат от 1000 ₸",
+		img: images.migrants,
 		name: "Мигранты",
-		link: "",
+		link: "https://almaty.qtickets.events/93103-stand-up-migranty",
 	},
 	{
 		id: 10,
@@ -268,24 +269,15 @@ export const eventsInfo = [
 	},
 
 	{
-		id: 22,
-		date: "1 декабря",
-		time: "23:00",
-		location: "In:pace",
-		address: "ул. Достык, 132Б",
-		price: "3000 ₸",
-		name: "Концерт: Дамир Нурсеитов и Темирлан Жалдыбаев",
-		link: "",
-	},
-	{
 		id: 19,
 		date: "1 декабря",
 		time: "21:00",
 		location: "Цугцванг",
 		address: "ул. Толе би, 49",
 		price: "донат от 1000 ₸",
+		img: images.englishMike3,
 		name: "English Mic",
-		link: "",
+		link: "https://almaty.qtickets.events/93106-english-mic",
 	},
 	{
 		id: 66,
@@ -304,8 +296,9 @@ export const eventsInfo = [
 		location: "Ray Stand-Up Pub",
 		address: "ул. Нурмакова, 51а",
 		price: "донат от 1000 ₸",
+		img: images.imporovJam,
 		name: "Вечер импровизации",
-		link: "",
+		link: "https://almaty.qtickets.events/93107-improv-jam",
 	},
 
 	{
@@ -315,8 +308,9 @@ export const eventsInfo = [
 		location: "Цугцванг",
 		address: "ул. Толе би, 49",
 		price: "донат от 1000 ₸",
+		img: images.moneyMike6,
 		name: "Money Mic: Отборочный тур",
-		link: "",
+		link: "https://almaty.qtickets.events/93099-denezhnyy-mikrofon",
 	},
 	{
 		id: 30,
@@ -325,8 +319,9 @@ export const eventsInfo = [
 		location: "Цугцванг",
 		address: "ул. Толе би, 49",
 		price: "донат от 1000 ₸",
+		img: images.openmic4,
 		name: "Открытый микрофон",
-		link: "",
+		link: "https://almaty.qtickets.events/93102-otkrytyy-mikrofon",
 	},
 	{
 		id: 60,
@@ -345,8 +340,9 @@ export const eventsInfo = [
 		location: "Цугцванг",
 		address: "ул. Толе би, 49",
 		price: "донат от 1000 ₸",
+		img: images.female,
 		name: "Stand up от комикесс",
-		link: "",
+		link: "https://almaty.qtickets.events/93098-stand-up-ot-komikess",
 	},
 	{
 		id: 46,
@@ -365,8 +361,9 @@ export const eventsInfo = [
 		location: "Ray Stand-Up Pub",
 		address: "ул. Нурмакова, 51а",
 		price: "донат от 1000 ₸",
+		img: images.openmic5,
 		name: "Открытый микрофон",
-		link: "",
+		link: "https://almaty.qtickets.events/93101-otkrytyy-mikrofon",
 	},
 	{
 		id: 54,
@@ -385,8 +382,9 @@ export const eventsInfo = [
 		location: "Цугцванг",
 		address: "ул. Толе би, 49",
 		price: "донат от 1000 ₸",
+		img: images.openmic6,
 		name: "Открытый микрофон",
-		link: "",
+		link: "https://almaty.qtickets.events/93108-otkrytyy-mikrofon",
 	},
 	//************************************************************ */
 	{
