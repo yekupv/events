@@ -1,6 +1,6 @@
 .navbar {
 	display: flex;
-	// justify-content: space-between;
+	justify-content: space-between;
 	align-items: center;
 	padding: 20px;
 	position: sticky;
@@ -184,6 +184,7 @@
 }
 @media screen and (min-width: 1284px) {
 	.navbar {
+		justify-content: flex-start;
 		border-end-start-radius: 15px;
 		border-end-end-radius: 15px;
 	}
