@@ -55,7 +55,8 @@ const Map = ({ isLoaded }) => {
 							onCloseClick={() => setSelectedMarker("")}
 						>
 							<div className="map__infowindow">
-								<h1>Список Событий</h1>
+								<h1>{selectedMarker.events[0].location}</h1>
+								<h2>{selectedMarker.address}</h2>
 								{selectedMarker.events.map((event) => (
 									// Use onClick to handle the scroll to the target element
 									<div

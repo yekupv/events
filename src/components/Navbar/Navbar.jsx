@@ -72,7 +72,6 @@ const Navbar = () => {
 					</a>
 				</div>
 
-				<div className="navbar__lang">Рус</div>
 				<div className="navbar__burger_menu">
 					<div
 						className="navbar__burger"

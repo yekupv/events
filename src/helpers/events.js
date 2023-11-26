@@ -74,8 +74,9 @@ export const eventsInfo = [
 		location: "in:pace",
 		address: "ул. Достык, 132Б",
 		price: "5000 ₸",
+		img: images.double4,
 		name: "Концерт: Вероника и Мадияр Нурманбетов",
-		link: "",
+		link: "https://sxodim.com/almaty/event/veronika-kim-i-madiyar-nurmanbetov-dvoynoy-stendap-koncert",
 	},
 	{
 		id: 8,
@@ -119,7 +120,8 @@ export const eventsInfo = [
 		address: "ул. Толе би, 49",
 		price: "донат от 1000 ₸",
 		name: "Концерт комиков с Юга",
-		link: "https://sxodim.com/almaty/event/komediynoe-shou-tyurkskiy-razgovornik-tretiy-motor",
+		img: images.south,
+		link: "https://almaty.qtickets.events/93192-stand-up-komiki-s-yuga",
 	},
 	{
 		id: 13,
@@ -150,8 +152,9 @@ export const eventsInfo = [
 		location: "in:pace",
 		address: "ул. Достык, 132Б",
 		price: "2000 ₸",
+		img: images.female2,
 		name: "Stand up от комикесс ",
-		link: "",
+		link: "https://sxodim.com/almaty/event/stand-up-koncert-ot-komikess",
 	},
 	{
 		id: 16,
@@ -248,12 +251,12 @@ export const eventsInfo = [
 		id: 27,
 		date: "2 декабря",
 		time: "18:00",
-		location: "Black Box",
+		location: "Almaty Central Stand up club",
 		address: "ул. Кабанбай батыра, 71",
-		price: "3000 ₸",
+		price: "5000 ₸",
 		img: images.big,
-		name: "Концерт алматинских комиков",
-		link: "",
+		name: "Большой алматинский стендап-концерт",
+		link: "https://sxodim.com/almaty/event/bolshoy-almatinskiy-stendap-koncert",
 	},
 	/////////////////////////////////////////////////////////////////////////////////
 
@@ -264,8 +267,9 @@ export const eventsInfo = [
 		location: "Wallride",
 		address: "Проспект Абая, 8а",
 		price: "донат от 1000 ₸",
+		img: images.openmic7,
 		name: "Открытый микрофон",
-		link: "",
+		link: "https://almaty.qtickets.events/93193-otkrytyy-mikrofon",
 	},
 
 	{
@@ -286,8 +290,9 @@ export const eventsInfo = [
 		location: "Coffee House Grain",
 		address: "ул. Курмангазы, 97",
 		price: "5000 ₸",
+		img: images.locals,
 		name: "Концерт алматинских комиков",
-		link: "",
+		link: "https://sxodim.com/almaty/event/stand-up-almaty-koncert-mestnyh-komikov",
 	},
 	{
 		id: 28,
@@ -330,8 +335,9 @@ export const eventsInfo = [
 		location: "in:pace",
 		address: "ул. Достык, 132Б",
 		price: "3000 ₸",
+		img: images.locals2,
 		name: "Концерт алматинских комиков",
-		link: "",
+		link: "https://sxodim.com/almaty/event/almatinskiy-koncert-koncert-mestnyh-komikov",
 	},
 	{
 		id: 48,
@@ -348,11 +354,12 @@ export const eventsInfo = [
 		id: 46,
 		date: "3 декабря",
 		time: "18:00",
-		location: "in:pace",
-		address: "ул. Достык, 132Б",
+		location: "Coffee House Grain",
+		address: "ул. Курмангазы, 97",
 		price: "2000 ₸",
+		img: images.kazakhmic3,
 		name: "Қазақша стендап",
-		link: "",
+		link: "https://sxodim.com/almaty/event/aza-sha-stendap-koncert-1",
 	},
 	{
 		id: 49,
@@ -372,8 +379,9 @@ export const eventsInfo = [
 		location: "in:pace",
 		address: "ул. Достык, 132Б",
 		price: "5000 ₸",
+		img: images.double5,
 		name: "Слава Никифоров и Тилеген Еркинбеков: двойной stand up концерт",
-		link: "",
+		link: "https://sxodim.com/almaty/event/slava-nikiforov-i-tilegen-erkinbekov-dvoynoy-stendap-koncert",
 	},
 	{
 		id: 55,
@@ -408,7 +416,7 @@ export const eventsInfo = [
 		price: "3000 ₸",
 		img: images.history,
 		name: "Вечер историй с Нагимой Настевич",
-		link: "",
+		link: "https://sxodim.com/almaty/event/razvlekatelnoe-shou-vecher-istoriy-s-nagimoy-nastevich",
 	},
 	{
 		id: 32,
@@ -468,7 +476,7 @@ export const eventsInfo = [
 	{
 		id: 37,
 		date: "2 декабря",
-		time: "18:30",
+		time: "20:30",
 		location: "Almaty Central Stand-Up Club",
 		address: "ул. Кабанбай батыра, 71",
 		price: "от 3000 ₸",
@@ -563,10 +571,10 @@ export const eventsInfo = [
 		time: "18:30",
 		location: "Almaty Central Stand-Up Club",
 		address: "ул. Кабанбай батыра, 71",
-		price: "4000 ₸",
+		price: "3000 ₸",
 		img: images.roast2,
 		name: "Прожарка Moreart",
-		link: "",
+		link: "https://sxodim.com/almaty/event/prozharka-moreart",
 	},
 	{
 		id: 51,
@@ -681,6 +689,7 @@ export const eventsInfo = [
 		link: "https://sxodim.com/almaty/event/birzhan-kabylbaev-i-shyngys-ermek-dvoynoy-stendap-koncert",
 	},
 ];
+export const eventsLength = eventsInfo.length;
 const addressesByLocation = [
 	{
 		address: "ул. Курмангазы, 97",
@@ -737,8 +746,6 @@ export const eventsByAddress = Object.entries(
 		return acc;
 	}, {})
 ).map(([key, group]) => group);
-console.log(eventsByAddress);
-
 // Now, eventsByAddress contains the desired structure
 export const eventsInfoMain = [
 	{ id: 1, img: images.formatKimura, name: "Кимура Шоу" },

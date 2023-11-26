@@ -39,8 +39,10 @@ import openmic3 from "./openmic3.jpg";
 import openmic4 from "./openmic4.jpg";
 import openmic5 from "./openmic5.jpg";
 import openmic6 from "./openmic6.jpg";
+import openmic7 from "./openmic7.jpg";
 import kazakhmic from "./kazakhmic.jpg";
 import kazakhmic2 from "./kazakhmic2.jpg";
+import kazakhmic3 from "./kazakhmic3.jpg";
 import kazakhSession from "./kazakhSession.jpg";
 import kazakhSession2 from "./kazakhSession2.jpg";
 import formatKazakh from "./formatKazakh.jpg";
@@ -73,6 +75,8 @@ import aitpa2 from "./aitpa2.jpg";
 import double from "./double.jpg";
 import double2 from "./double2.jpg";
 import double3 from "./double3.jpg";
+import double4 from "./double4.jpg";
+import double5 from "./double5.jpg";
 import west from "./west.jpg";
 import moneyMike4 from "./moneyMike4.jpg";
 import moneyMike5 from "./moneyMike5.jpg";
@@ -86,6 +90,10 @@ import karaganda from "./karaganda.jpg";
 import imporovJam from "./imporovJam.jpg";
 import migrants from "./migrants.jpg";
 import female from "./female.jpg";
+import female2 from "./female2.jpg";
+import locals from "./locals.jpg";
+import locals2 from "./locals2.jpg";
+import south from "./south.jpg";
 
 export default {
 	whatsapp,
@@ -129,8 +137,10 @@ export default {
 	openmic4,
 	openmic5,
 	openmic6,
+	openmic7,
 	kazakhmic,
 	kazakhmic2,
+	kazakhmic3,
 	kazakhSession,
 	kazakhSession2,
 	formatKazakh,
@@ -165,6 +175,8 @@ export default {
 	double,
 	double2,
 	double3,
+	double4,
+	double5,
 	west,
 	taro,
 	zoomers,
@@ -176,4 +188,8 @@ export default {
 	imporovJam,
 	migrants,
 	female,
+	female2,
+	locals,
+	locals2,
+	south,
 };
