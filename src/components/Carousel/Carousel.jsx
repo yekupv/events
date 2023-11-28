@@ -57,11 +57,7 @@ const Carousel = () => {
 					<img src={images.image_carousel_7} alt="slider image 8" />
 				</div>
 				<div className="box">
-					<img
-						src={images.image_carousel_4}
-						loading="lazy"
-						alt="slider image 5"
-					/>
+					<img src={images.image_carousel_4} alt="slider image 5" />
 				</div>
 			</Slider>
 		</div>

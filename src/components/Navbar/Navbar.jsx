@@ -39,7 +39,10 @@ const Navbar = () => {
 			<nav className="navbar">
 				<ul className="navbar__socials">
 					<li className="navbar__socials-item">
-						<a href="https://instagram.com/alemcomedyfest" target="_blank">
+						<a
+							href="https://www.instagram.com/alem.comedy.fest/"
+							target="_blank"
+						>
 							<img src={images.instagram} alt="inst" />
 						</a>
 					</li>
@@ -119,7 +122,7 @@ const Navbar = () => {
 								<ul className="navbar__menu__footer__socials">
 									<li className="navbar__menu__footer__socials-item">
 										<a
-											href="https://instagram.com/alemcomedyfest"
+											href="https://www.instagram.com/alem.comedy.fest/"
 											target="_blank"
 										>
 											<img src={images.instagram} alt="inst" />

@@ -19,7 +19,7 @@ export const eventsInfo = [
 		location: "Almaty Central Stand-Up Club",
 		address: "ул. Кабанбай батыра, 71",
 		price: "1000 ₸",
-		img: images.eventImg1,
+		img: images.eventImg3,
 		name: "Тюркский разговорник",
 		link: "https://sxodim.com/almaty/event/komediynoe-shou-tyurkskiy-razgovornik-pervyy-motor",
 	},
