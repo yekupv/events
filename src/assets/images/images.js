@@ -77,6 +77,7 @@ import double2 from "./double2.jpg";
 import double3 from "./double3.jpg";
 import double4 from "./double4.jpg";
 import double5 from "./double5.jpg";
+import double6 from "./double6.jpg";
 import west from "./west.jpg";
 import moneyMike4 from "./moneyMike4.jpg";
 import moneyMike5 from "./moneyMike5.jpg";
@@ -177,6 +178,7 @@ export default {
 	double3,
 	double4,
 	double5,
+	double6,
 	west,
 	taro,
 	zoomers,

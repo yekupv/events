@@ -688,6 +688,17 @@ export const eventsInfo = [
 		name: "Биржан Кабылбаев и Шынгыс Ермек: двойной stand up концерт",
 		link: "https://sxodim.com/almaty/event/birzhan-kabylbaev-i-shyngys-ermek-dvoynoy-stendap-koncert",
 	},
+	{
+		id: 66,
+		date: "1 декабря",
+		time: "23:00",
+		location: "in:pace",
+		address: "ул. Достык, 132Б",
+		price: "3000 ₸",
+		img: images.double6,
+		name: "Темирлан Жалдыбаев и Витя Копаница: двойной stand up концерт",
+		link: "https://sxodim.com/almaty/event/temirlan-zhaldybaev-i-viktor-kopanica-dvoynoy-stendap-koncert",
+	},
 ];
 export const eventsLength = eventsInfo.length;
 const addressesByLocation = [
