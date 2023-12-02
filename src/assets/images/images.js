@@ -35,7 +35,7 @@ import eventImg2 from "./eventsImg2.jpg";
 import eventImg3 from "./eventsImg3.jpg";
 import openmic from "./openmic.jpg";
 import openmic2 from "./openmic2.jpg";
-import openmic3 from "./openmic3.jpg";
+import openmic3 from "./openmic3.jpeg";
 import openmic4 from "./openmic4.jpg";
 import openmic5 from "./openmic5.jpg";
 import openmic6 from "./openmic6.jpg";
