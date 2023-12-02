@@ -42,7 +42,7 @@ import openmic6 from "./openmic6.jpg";
 import openmic7 from "./openmic7.jpg";
 import kazakhmic from "./kazakhmic.jpg";
 import kazakhmic2 from "./kazakhmic2.jpg";
-import kazakhmic3 from "./kazakhmic3.jpg";
+import kazakhmic3 from "./kazakhmic3.jpeg";
 import kazakhSession from "./kazakhSession.jpg";
 import kazakhSession2 from "./kazakhSession2.jpg";
 import formatKazakh from "./formatKazakh.jpg";
