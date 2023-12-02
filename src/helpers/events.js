@@ -320,7 +320,7 @@ export const eventsInfo = [
 	{
 		id: 30,
 		date: "2 декабря",
-		time: "20:30",
+		time: "18:00",
 		location: "Цугцванг",
 		address: "ул. Толе би, 49",
 		price: "донат от 1000 ₸",
@@ -488,7 +488,7 @@ export const eventsInfo = [
 	{
 		id: 38,
 		date: "2 декабря",
-		time: "20:30", // время на афише 20:00
+		time: "20:00", // время на афише 20:00
 		location: "Wallride",
 		address: "Проспект Абая, 8а",
 		price: "донат от 1000 ₸",
